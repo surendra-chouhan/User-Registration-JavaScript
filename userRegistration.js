@@ -9,3 +9,12 @@ if(REGEX_FOR_NAME.test(firstName)){
 else{
     console.log("Invalid First Name");
 }
+
+var lastName = read.question("Enter your Last Name : ");
+
+if(REGEX_FOR_NAME.test(lastName)){
+    console.log("Last Name entered successfully");
+}
+else{
+    console.log("Invalid Last Name");
+}
